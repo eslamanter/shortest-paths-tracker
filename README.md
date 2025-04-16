@@ -2,7 +2,7 @@
 
 # What is it for? 
 
-Shortest Paths Tracker is an executable application designed to analyze directed graphs and find the shortest paths in terms of total cost for all connected pairs of nodes. 
+Shortest Paths Tracker is designed to analyze directed graphs and find the shortest paths in terms of total cost for all connected pairs of nodes. 
 
 # How to run? 
 
