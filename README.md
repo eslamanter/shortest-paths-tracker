@@ -12,4 +12,4 @@ Shortest Paths Tracker 2022.1 has two input modes: read and write modes. Read mo
 
 Shortest Paths Tracker 2022.1 firstly performs a sequence of verifications for the validity of the file, active worksheet, graph information related to the values of nodes, costs, and directions, and logs any incorrect input to the text file. When all are valid, it creates and writes the forward star of the graph where arcs are sorted in ascending order primarily by tail nodes and secondarily by head ones. Starting from the forward star, it applies Dijkstra’s shortest path algorithm to find the paths of minimum costs connecting an origin node with every other node in the graph. This algorithm terminates after a maximum of n iterations in addition to the initialization for a graph of n nodes. The algorithm is applied to all nodes iterating the origin node every time. The resulting number of all feasible shortest paths may reach n2 – n in a completely connected graph. A maximum of 1000 nodes per graph has been set for issues of time complexity O(n2) and limitations of excel worksheet size. 
 
-2022 Eslam Anter
+30/04/2022 | Eslam Abdullah
